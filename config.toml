@@ -1,0 +1,20 @@
+[proxy]
+listen_host = "0.0.0.0"
+listen_port = 25565
+
+# 路由示例：玩家使用哪个域名进来，就走哪个后端
+[routes."survival.example.com".status]
+host = "10.0.0.11"
+port = 25565
+
+[routes."survival.example.com".transfer]
+host = "survival.example.com"
+port = 25565
+
+[routes."skyblock.example.com".status]
+host = "10.0.0.12"
+port = 25565
+
+[routes."skyblock.example.com".transfer]
+host = "skyblock.example.com"
+port = 25565
