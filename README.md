@@ -1,3 +1,10 @@
+该项目完全是由ChatGPT-5.3-Codex生成的
+用途非常狭窄
+在尝试使用该项目提供的内容时，请首先确认
+1.你知道SRV解析记录是什么
+2.完全了解Transfer的局限性
+以下是GPT生成的原始README
+
 # Domain Transfer Proxy (Python)
 
 一个按 **玩家访问域名** 路由的 MC 前置服务：
